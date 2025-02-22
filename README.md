@@ -4,9 +4,9 @@
 
 ## 🚀 Overview
 
-The **AI Syllabus Summarizer** is an AI-powered tool designed to generate structured, concise course summaries based on uploaded syllabi. Built for **MBA advisors**, this tool simplifies the process of extracting relevant course details, helping advisors quickly access key information for student advising.
+The **AI Syllabus Summarizer** is an AI-powered tool designed to generate structured, concise course summaries from uploaded syllabi. Built for **MBA advisors**, this tool simplifies the process of extracting relevant course details, enabling advisors to quickly access key information for student advising.
 
-This summarizer processes syllabi using **AI-driven text extraction and summarization models**, ensuring that summaries are clear, structured, and directly sourced from the syllabus content. The tool follows a standardized format, ensuring consistency and accuracy.
+This summarizer processes syllabi using **Claude 3 Haiku** for efficient text extraction and **GPT-4o** for structured summarization, ensuring clarity, consistency, and accuracy. The summarization strictly adheres to a **standardized prompt**, ensuring summaries only include explicitly stated information and maintain a structured format.
 
 ## 🌱 Why This Matters
 
@@ -26,19 +26,27 @@ This summarizer processes syllabi using **AI-driven text extraction and summariz
 ## 📖 How It Works
 
 1. **Upload a syllabus (PDF format).**  
-2. **AI extracts and processes the text.**  
-3. **A structured summary is generated**, including:  
-   - Course Title, Instructor, Schedule & Location  
-   - Course Description & Key Learning Outcomes  
-   - Prerequisites, Technologies Covered & Assessment Methods (if applicable)  
-   - Special Features (e.g., Certifications, Guest Lectures)  
-   - Career Relevance (AI-generated based on syllabus content)  
+2. **AI extracts and processes the text using Claude 3 Haiku.**  
+3. **GPT-4o generates a structured summary**, adhering to the following format:  
+   - **Course Title:** Full course name with course code in parentheses.  
+   - **Semester:** (Only if provided) Specifies which semester the syllabus is for.  
+   - **Instructor:** Name and brief professional background (if available).  
+   - **Class Schedule & Location:** Clearly formatted schedule details (or "Online" for virtual courses).  
+   - **Course Description:** Concise summary focusing on course objectives and uniqueness.  
+   - **Prerequisites:** Clearly listed or "None" if not required.  
+   - **Key Learning Outcomes:** List of major topics or skills covered.  
+   - **Technologies and Tools Covered:** Explicitly mentioned programming languages, frameworks, or platforms.  
+   - **Assessment Methods:** Summary of primary evaluation methods without excessive detail.  
+   - **Special Features:** Certifications, guest lectures, industry partnerships, or unique course benefits.  
+   - **Relevant Job Roles:** Five AI-generated job roles based on syllabus content, with a disclaimer.  
+
 4. **Advisors can review the summary and provide feedback.**  
 
 ## 🌇 Tech Stack
 
 - **Retool** – Frontend and AI workflow automation  
-- **Claude 3 / GPT-4o** – AI language model for intelligent summarization  
+- **Claude 3 Haiku** – Converts long PDFs into readable text efficiently  
+- **GPT-4o** – AI language model for intelligent summarization  
 - **PostgreSQL** – Stores advisor feedback for improvements  
 - **JavaScript (JS)** – Custom Retool logic for API integration  
 - **Retrieval-Augmented Generation (RAG)** – Enhances summaries using structured syllabus data  
@@ -51,7 +59,8 @@ This summarizer processes syllabi using **AI-driven text extraction and summariz
 - Click **Import JSON** and select `ai_syllabus_summarizer.json`.  
 
 2️⃣ **Set Up AI API Key (If Needed)**  
-- Configure **Claude 3** or **GPT-4o** API if Retool does not have built-in AI capabilities.  
+- Configure **Claude 3 Haiku** for text extraction.  
+- Configure **GPT-4o** for summarization if Retool does not have built-in AI capabilities.  
 
 3️⃣ **Run the Application**  
 - Upload a syllabus and view the AI-generated summary instantly.  
