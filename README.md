@@ -95,7 +95,8 @@ LICENSE         # Open-source license file
 
 ![image](https://github.com/user-attachments/assets/b4e98078-71d7-4f30-95f4-24cc5a14afda)
 
-![image](https://github.com/user-attachments/assets/86583742-e0d2-489c-8817-3ed500c01300)
+![image](https://github.com/user-attachments/assets/683b3a6b-50f4-4a4e-aa22-d7dc1f6a4a9b)
+
 
 ## 📝 License
 
