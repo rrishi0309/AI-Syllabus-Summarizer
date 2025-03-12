@@ -8,6 +8,22 @@ The **AI Syllabus Summarizer** is an AI-driven tool designed to generate structu
 
 This summarizer processes syllabi using **Claude 3 Haiku** for efficient text extraction and **GPT-4o** for structured summarization, ensuring clarity, consistency, and accuracy. The summarization strictly adheres to a **standardized prompt**, ensuring summaries only include explicitly stated information and maintain a structured format.
 
+## 📌 What’s New (v1.8)
+
+- **Enhanced Dashboard Analytics** – Improved UI with better visualization for feedback tracking and resolution status.
+- **Bulk Export for Summaries** – Export multiple course summaries at once in DOCX or PDF format.
+- **Smart Filtering** – Filter feedback based on rating, resolution status, and keyword searches.
+- **Custom Summary Formatting** – Choose between detailed or concise summary formats for different advising needs.
+- **Performance Optimizations** – Faster syllabus processing and improved AI response times.
+
+## 📌 What’s New (v1.5)
+
+- **Improved Summary Quality** – AI-generated summaries are now more structured and better aligned with syllabus content for improved clarity and relevance.
+- **Export to DOCX & PDF** – Now you can export summaries in both formats! If edits are needed, DOCX allows you to modify the content easily.
+- **Prerequisites Update** – If a course has no prerequisites, the field will no longer appear in the summary. Earlier, it used to show as “None.”
+- **Credits Display** – Course credits will only be shown if explicitly mentioned in the syllabus.
+- **Class Schedule** – The class schedule (meeting times, location, etc.) is now optional and will only be included if available. Earlier, it used to show as “None.”
+
 ## 🌱 Why This Matters
 
 - **Saves Time** – Eliminates the need for manually reviewing lengthy syllabi.  
@@ -22,6 +38,9 @@ This summarizer processes syllabi using **Claude 3 Haiku** for efficient text ex
 ✅ **Standardized Summaries** – Ensures consistency across all course summaries.  
 ✅ **Feedback Feature** – Allows advisors to report inaccuracies for continuous improvement.  
 ✅ **Interactive Dashboard** – Provides visual analytics on ratings and feedback resolution.  
+✅ **Export to DOCX & PDF** – Easily save and modify summaries.  
+✅ **Bulk Export** – Export multiple summaries at once.  
+✅ **Smart Filtering** – Quickly find relevant feedback with keyword search.  
 ✅ **No Data Storage** – The tool processes PDFs in real-time without storing any user data.  
 
 ## 📊 Interactive Dashboard
@@ -30,6 +49,8 @@ The AI Syllabus Summarizer includes a **Retool-powered dashboard** to provide in
 - **Overall Rating Breakdown** – Displays the distribution of ratings across syllabi.
 - **Resolution Status** – Tracks resolved and pending feedback for syllabus improvements.
 - **Feedback Table** – Shows individual user comments, ratings, and links to syllabi.
+- **Smart Filtering** – Sort and filter based on ratings, resolution status, and keywords.
+- **Bulk Export** – Download multiple summaries in DOCX or PDF format.
 - **Real-time Updates** – Automatically updates as advisors submit feedback.
 
 ## 📚 How It Works
@@ -42,7 +63,7 @@ The AI Syllabus Summarizer includes a **Retool-powered dashboard** to provide in
    - **Instructor:** Name and brief professional background (if available).  
    - **Class Schedule & Location:** Clearly formatted schedule details (or "Online" for virtual courses).  
    - **Course Description:** Concise summary focusing on course objectives and uniqueness.  
-   - **Prerequisites:** Clearly listed or "None" if not required.  
+   - **Prerequisites:** Clearly listed (or omitted if not required).  
    - **Key Learning Outcomes:** List of major topics or skills covered.  
    - **Technologies and Tools Covered:** Explicitly mentioned programming languages, frameworks, or platforms.  
    - **Assessment Methods:** Summary of primary evaluation methods without excessive detail.  
@@ -95,7 +116,9 @@ LICENSE         # Open-source license file
 
 ![image](https://github.com/user-attachments/assets/b4e98078-71d7-4f30-95f4-24cc5a14afda)
 
-![image](https://github.com/user-attachments/assets/683b3a6b-50f4-4a4e-aa22-d7dc1f6a4a9b)
+![image](https://github.com/user-attachments/assets/86583742-e0d2-489c-8817-3ed500c01300)
+
+![image](https://github.com/user-attachments/assets/1429cf88-b902-4b12-9bc6-4bed890aaac7)
 
 
 ## 📝 License
