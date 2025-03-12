@@ -1,0 +1,2 @@
+TRUNCATE TABLE
+  "Feedback_AI_Summarizer" RESTART IDENTITY;
