@@ -1,5 +1,4 @@
-# 📚 AI Syllabus Summarizer (Powered by AI & Retool)
-
+# 📚 AI Syllabus Summarizer
 "Streamlining syllabus reviews with AI-powered summaries to enhance advising efficiency."
 
 ## 🚀 Overview
