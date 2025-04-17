@@ -1,7 +1,7 @@
 # 📚 AI Syllabus Summarizer
 "Streamlining syllabus reviews with AI-powered summaries to enhance advising efficiency."
 
-➡️ For the newer Power Platformn version, visit: [github.com/rrishi0309/AI-Syllabus-Summarizer](https://github.com/rrishi0309/SyllabusSummarizer-PowerPlatform)
+➡️ For the newer Power Platform version, visit: https://github.com/rrishi0309/SyllabusSummarizer-PowerPlatform 
 
 ## 🚀 Overview
 
