@@ -1,6 +1,8 @@
 # 📚 AI Syllabus Summarizer
 "Streamlining syllabus reviews with AI-powered summaries to enhance advising efficiency."
 
+➡️ For the newer Power Platformn version, visit: [github.com/rrishi0309/AI-Syllabus-Summarizer](https://github.com/rrishi0309/SyllabusSummarizer-PowerPlatform)
+
 ## 🚀 Overview
 
 The **AI Syllabus Summarizer** is an AI-driven tool designed to generate structured, concise course summaries from uploaded syllabi. Built for **MBA advisors**, this tool simplifies the process of extracting relevant course details, enabling advisors to quickly access key information for student advising.
